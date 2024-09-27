@@ -1,1 +1,20 @@
+# Step 1: Navigate to the project directory
+cd [name_of_your_folder]
 
+# Step 2: Initialize a new Git repository
+git init
+
+# Step 3: Check the current status of the repository
+git status
+
+# Step 4: Add files to the staging area (all files in this case)
+git add .
+
+# (Optional) If you added files by mistake or want to unstage changes:
+git reset
+
+# Step 5: Commit the staged files with a commit message
+git commit -m "Your commit message here"
+
+# Step 6: Push the changes to the remote repository (GitHub)
+git push origin main
