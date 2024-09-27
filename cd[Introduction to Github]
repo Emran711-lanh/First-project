@@ -1,2 +1,5 @@
-git init My first project
-git status
+cd MyProject
+echo 'print("Hello, world!")' > main.py
+git add .
+git commit -m "Initial commit with main.py"
+git push origin main
