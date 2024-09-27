@@ -1,15 +1,8 @@
-
-cd [Introduction to github]
-
-get init
-
+cd [ Introduction to github]
+git init
 git status
-
+(projects)
 git add .
-
-If you added files by mistake or want to unstage changes:
-git reset
-
-Commit the staged files with a commit message
-git commit -m " Hello world!"
+git commit -m YHell9 world!"
+(github)
 git push origin main
